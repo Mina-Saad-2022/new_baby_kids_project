@@ -1,0 +1,70 @@
+*{
+    font-family: "Times New Roman", serif !important;
+}
+
+/*for background create page */
+.create_new_user{
+    background: white ;
+}
+.register,.right-content{
+    background: #D9E0E7 !important ;
+
+}
+.right-content{
+    width: 60% !important;
+}
+
+    /************  for create users  ************/
+
+.label_create_user ,.form-control,.btn_create_user{
+    font-size: 1.3rem;
+    /*width: 133%;*/
+}
+.table-td-valign-middle,#sidebar,.cover,.pace-done{
+ font-size: 1rem;
+}
+/************  for  users img ************/
+
+.img_user{
+    width: 45px;
+    height: 35px;
+    border-radius: 50%;
+}
+
+
+/************  message  error in data inputs for create new user ************/
+
+.message_wrong{
+    color: #eb2f06;
+}
+
+/************  parent of inputs user data ************/
+
+.parent{
+    margin-left: 29% !important;
+}
+.inputs{
+    padding: 2%;
+}
+
+.form_control {
+    display: block;
+    width: 100%;
+    height: calc(2.25rem + 2px);
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    /*background-color: #fff;*/
+    /*background-clip: padding-box;*/
+    /*border: 1px solid #ced4da;*/
+    border-radius: .25rem;
+    box-shadow: inset 0 0 0 transparent;
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+ .user_photo{
+    width: 45px;
+    height: 35px;
+    border-radius: 50%;
+}
